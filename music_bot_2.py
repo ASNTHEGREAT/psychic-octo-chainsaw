@@ -17,6 +17,7 @@ def video_player(video):
     time.sleep(2)
     pg.moveTo(369, 283, duration=1.15)
     pg.click()
+    time.sleep(900000)
 
 
 video_player(video)
